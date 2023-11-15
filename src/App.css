@@ -230,6 +230,12 @@
 }
 
 @media(max-width: 1024px){
+  .h2Title{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .squaresWorks{
       width: 90%;
   }
@@ -470,7 +476,7 @@
   .squaresTestimonials{
       width: 90%;
   }
-  .squareTestimonials{
+  .squareTestimonial{
       width: calc(100% - 0px); /* El 25% es para cuatro cuadros en línea, y 10px para el espacio entre ellos */
       margin-bottom: 20px;
       background-color: #fff;
