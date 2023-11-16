@@ -9,7 +9,7 @@
 
 :root{
   --color_org: rgb(241, 91, 4);
-  --color_cls: rgba(47, 72, 88, 1);
+  --color_cls: rgba(47, 72, 88, 1); 
   --color_eee: rgba(234,239,243,.66);
   --color_gold: #fbbc04;
 }
@@ -17,7 +17,7 @@
 /*HEADER*/
 .header{
   width: 100%;
-  background-image: url(images/header-background.jpeg);
+  background-image: url(images/header-backgrounda.png);
   background-size: cover;
   padding-bottom: 80px;
 }
@@ -41,7 +41,7 @@
 }
 
 .title{
-  font-size: 2.8em;
+  font-size: 2.6em;
   color: var(--color_cls);
   margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@
 }
 
 .htp{
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: lighter;
   color: var(--color_cls);
 }
