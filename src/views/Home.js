@@ -5,6 +5,7 @@ import Services from '../components/Services';
 import Parallax from '../components/Parallax';
 import Testimonials from '../components/Testimonials';
 import Tips from '../components/Tips';
+import Cta from '../components/Cta';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Parallax />
       <Testimonials />
       <Tips />
+      <Cta />
     </div>
   );
 };
