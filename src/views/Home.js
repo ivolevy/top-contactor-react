@@ -6,6 +6,7 @@ import Parallax from '../components/Parallax';
 import Testimonials from '../components/Testimonials';
 import Tips from '../components/Tips';
 import Cta from '../components/Cta';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Testimonials />
       <Tips />
       <Cta />
+      <Footer />
     </div>
   );
 };

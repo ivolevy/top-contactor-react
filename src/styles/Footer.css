@@ -1,0 +1,48 @@
+.footer{
+    background: rgba(47, 72, 88, 1);
+    padding: 60px;
+    display: flex;
+    padding-bottom: 80px;
+    font-weight: 330;
+}
+
+.footerLogo{
+    width: 33%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footerImg{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.footerLinks{
+    width: 33%;
+    height: auto;
+    padding: 20px;
+}
+
+.footerText{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footerLink{
+    text-decoration: underline;
+    text-transform: none;
+    color: #fff;
+}
+
+.footerLink2{
+   text-decoration: none;
+}
+
+.privacy{
+    font-size: 0.9em;
+}
+
+.email{
+    text-decoration: underline;
+}

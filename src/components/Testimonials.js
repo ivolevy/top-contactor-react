@@ -34,7 +34,7 @@ function Testimonials() {
             <FaStar className="starIcon"/>
           </div>
           <p className="SquareDescTestimonial">Every single detail and concern I had was addressed in a timely and professional manner. <span className="strong">I highly recommend them</span>.</p>
-          <p className="squareTextTestimonial">Jen K, Hampstead</p>
+          <p className="squareTextTestimonial">Virginia A, Kingstoned</p>
         </div>
 
         <div className="squareTestimonial">
@@ -47,7 +47,7 @@ function Testimonials() {
             <FaStar className="starIcon"/>
           </div>
           <p className="SquareDescTestimonial">Every single detail and concern I had was addressed in a timely and professional manner. <span className="strong">I highly recommend them</span>.</p>
-          <p className="squareTextTestimonial">Jen K, Hampstead</p>
+          <p className="squareTextTestimonial">Brian M, Kansas</p>
         </div>
 
       </div>

@@ -12,6 +12,7 @@
   --color_cls: rgba(47, 72, 88, 1); 
   --color_eee: rgba(234,239,243,.66);
   --color_gold: #fbbc04;
+  --color_similblack: rgba(61, 61, 61, 1);
 }
 
 /*HEADER*/
@@ -330,10 +331,10 @@
 }
 
 .parallaxTitle{
-  font-size: 2.8em;
+  font-size: 2.9em;
   color: var(--color_cls);
   margin-bottom: 20px;
-  font-weight: 500;
+  font-weight: 600;
   width: 90%;
 }
 
@@ -347,7 +348,7 @@
 .parallaxDesc{
   font-weight: lighter;
   font-size: 1.1em;
-  color: var(--color_cls);
+  color: var(--color_similblack);
 }
 
 @media(max-width: 1024px){
@@ -412,7 +413,8 @@
       background-color: #fff;
       width: 80%;
       height: auto;
-      padding: 60px;
+      padding: 40px;
+      padding-top: 60px;
       border-radius: 10px;
   }
   .parallaxImg{
@@ -598,7 +600,7 @@
 
 .ctaTitle{
   font-size: 2.5em;
-  color: #000;
+  color: var(--color_similblack);
   margin-bottom: 20px;
   font-weight: 700;
   width: 90%;
@@ -607,12 +609,12 @@
 .ctaDesc{
   font-weight: 330;
   font-size: 1.1em;
-  color: #000;
+  color: var(--color_similblack);
   margin-bottom: 20px;
 }
 
 .strongCta{
-  color: #000;
+  color: var(--color_similblack);
 }
 
 .buttonCta{
@@ -633,12 +635,12 @@
       padding: 60px;
       padding-right: 20px;
       display: flex;
-      justify-content: flex-end;
+      justify-content: flex-start;
   }
   
   .squareCta{
       background-color: #fff;
-      width: 55%;
+      width: 80%;
       height: auto;
       padding: 60px;
       border-radius: 10px;
