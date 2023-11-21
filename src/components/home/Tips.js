@@ -1,8 +1,5 @@
 import React from 'react';
-import '../App.css';
-import tips1 from '../images/tips1.jpeg';
-import tips2 from '../images/tips2.jpeg';
-import tips3 from '../images/tips3.jpeg';
+import '../../styles/Home.css';
 
 function Tips() {
   return (

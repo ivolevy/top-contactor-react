@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 import '../styles/Footer.css'
 import logo from '../images/logo-footer.webp';
 
