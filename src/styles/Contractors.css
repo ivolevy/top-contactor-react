@@ -270,8 +270,8 @@
   background-color: #fff;
   width: 45%;
   height: auto;
-  padding: 40px;
-  border-radius: 10px;
+  padding: 60px;
+  border-radius: 20px;
 }
 
 .ctaTitleContractors{
@@ -291,6 +291,10 @@
 
 .strongCtaContractors{
   color: var(--color_similblack);
+}
+
+.ctaSubDesc{
+  margin-bottom: 20px;
 }
 
 .buttonCtaContractors{
