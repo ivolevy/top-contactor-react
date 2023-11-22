@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Home.css';
+import '../../assets/styles/Home.css';
 import { LuListVideo } from "react-icons/lu";
 import { LiaHandshake } from "react-icons/lia";
 import { IoIosCalculator } from "react-icons/io";
@@ -19,23 +19,23 @@ function Works() {
 
         <div className="squareWork">
           <LiaHandshake className="iconWork"/>
-          <p className="squareTitle">STEP 1</p>
-          <p className="squareText">Tell us about your home improvement project</p>
-          <p className="SquareDesc">Answer a few questions about your home improvement project.</p>
+          <p className="squareTitle">STEP 2</p>
+          <p className="squareText">Connect with the best local contractor</p>
+          <p className="SquareDesc">We will match you with the top local contractor that's best suited for your project.</p>
         </div>
 
         <div className="squareWork">
           <IoIosCalculator className="iconWork"/>
-          <p className="squareTitle">STEP 1</p>
-          <p className="squareText">Tell us about your home improvement project</p>
-          <p className="SquareDesc">Answer a few questions about your home improvement project.</p>
+          <p className="squareTitle">STEP 3</p>
+          <p className="squareText">Book an appointment with the top contractor</p>
+          <p className="SquareDesc">Schedule a FREE estimate for your project and receive it in less than 24h</p>
         </div>
 
         <div className="squareWork">
           <MdOutlineRocketLaunch className="iconWork"/>
-          <p className="squareTitle">STEP 1</p>
-          <p className="squareText">Tell us about your home improvement project</p>
-          <p className="SquareDesc">Answer a few questions about your home improvement project.</p>
+          <p className="squareTitle">STEP 4</p>
+          <p className="squareText">Start your project with confidence</p>
+          <p className="SquareDesc"> Begin you project with confidence, clarity & peace of mind.</p>
         </div>
       </div>
     </section>

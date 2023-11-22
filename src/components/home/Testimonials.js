@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/Home.css';
-import testimonialJ from '../../images/j.webp';
-import testimonialV from '../../images/v.webp';
-import testimonialB from '../../images/b.webp';
+import '../../assets/styles/Home.css';
+import testimonialJ from '../../assets/images/j.webp';
+import testimonialV from '../../assets/images/v.webp';
+import testimonialB from '../../assets/images/b.webp';
 import { FaStar } from "react-icons/fa6";
 
 function Testimonials() {

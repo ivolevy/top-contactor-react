@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Home.css';
+import '../../assets/styles/Home.css';
 import { RiToolsLine } from "react-icons/ri";
 import { BsFillDropletFill } from "react-icons/bs";
 import { TbBuildingLighthouse } from "react-icons/tb";

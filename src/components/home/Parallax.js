@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/Home.css';
-import certified from '../../images/certifiers.webp';
+import '../../assets/styles/Home.css';
+import certified from '../../assets/images/certifiers.webp';
 
 function Header() {
   return (

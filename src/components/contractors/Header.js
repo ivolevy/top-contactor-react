@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/Contractors.css';
+import '../../assets/styles/Contractors.css';
 
 {/** APPLY HEADER */}
 
