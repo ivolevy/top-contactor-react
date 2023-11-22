@@ -2,7 +2,7 @@ import React from 'react';
 import '../../assets/styles/Home.css';
 import certified from '../../assets/images/certifiers.webp';
 
-function Header() {
+const Header = () => {
   return (
     <section className="parallax">
     <div className="squareParallax">

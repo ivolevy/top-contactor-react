@@ -6,7 +6,7 @@ import { IoIosCalculator } from "react-icons/io";
 import { MdOutlineRocketLaunch } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-function Works() {
+const Works = () => {
   return (
     <section className="works">
       <Link to="/Contractors">

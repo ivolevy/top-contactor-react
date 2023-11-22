@@ -7,7 +7,7 @@ import { MdCurrencyExchange } from "react-icons/md";
 import { IoAnalytics } from "react-icons/io5";
 import { GrUserManager } from "react-icons/gr";
 
-function Benefits() {
+const Benefits = () => {
   return (
       <section className="benefits">
         <h2 className="h2TitleContractors">Our benefits</h2>

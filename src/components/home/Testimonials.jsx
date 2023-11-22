@@ -5,7 +5,7 @@ import testimonialV from '../../assets/images/v.webp';
 import testimonialB from '../../assets/images/b.webp';
 import { FaStar } from "react-icons/fa6";
 
-function Testimonials() {
+const Testimonials = () => {
   return (
     <section className="testimonials">
       <h2 className="h2Title">Testimonials</h2>

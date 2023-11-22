@@ -5,7 +5,7 @@ import { BsHouseGear } from "react-icons/bs";
 import { MdOutlineRoofing } from "react-icons/md";
 import { BiStore } from "react-icons/bi";
 
-function Header() {
+const Header = ()=> {
   return (
     <section className="header">
       <div className="headerDivs">

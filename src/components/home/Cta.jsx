@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
 
-function Cta() {
+const Cta = () => {
   return (
     <section className="cta">
     <div className="squareCta">

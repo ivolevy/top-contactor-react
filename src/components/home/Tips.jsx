@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
 
-function Tips() {
+const Tips = () => {
   return (
     <section className="tips">
     <h2 className="h2Title">Top Contractor Tips</h2>

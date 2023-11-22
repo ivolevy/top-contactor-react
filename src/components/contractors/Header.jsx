@@ -3,7 +3,7 @@ import '../../assets/styles/Contractors.css';
 
 {/** APPLY HEADER */}
 
-function Header() {
+const Header = () => {
   return (
     <section className="headerContractors">
       <div className="headerDivsContractors">
