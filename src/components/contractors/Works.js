@@ -8,7 +8,7 @@ function Works() {
   return (
     <section className="worksContractors">
       <h2 className="h2TitleContractors">How Top Contractor List Works</h2>
-      <div className="squaresWorks">
+      <div className="squaresWorksContractors">
         <div className="squareWorkContractors">
           <LuListVideo className="iconWork"/>
           <p className="squareTitle">STEP 1</p>

@@ -18,9 +18,7 @@ function Header() {
           </div>
         </div>
         <div className="headerServicesContractors">
-          <div className="hsContractors">
-            <p className="hsTitleContractors">Select a service below to get started</p>
-            
+          <div className="hsContractors">            
           </div>
         </div>
       </div>

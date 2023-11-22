@@ -4,10 +4,14 @@ import { LuListVideo } from "react-icons/lu";
 import { LiaHandshake } from "react-icons/lia";
 import { IoIosCalculator } from "react-icons/io";
 import { MdOutlineRocketLaunch } from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 function Works() {
   return (
     <section className="works">
+      <Link to="/Contractors">
+        <button>Ir a contractors</button>
+      </Link>
       <h2 className="h2Title">How Top Contractor List Works</h2>
       <div className="squaresWorks">
         <div className="squareWork">
