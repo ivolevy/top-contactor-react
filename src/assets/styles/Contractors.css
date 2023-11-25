@@ -81,7 +81,7 @@
 }
 
 @media(max-width: 1024px){
-  .headerDivs{
+  .headerDivsContractors{
       width: 95%;
       display: flex;
       flex-direction: column;
@@ -89,25 +89,27 @@
       margin: 0 auto;
   }
   /*left*/
-  .headerTitles{
+  .headerTitlesContractors{
       width: 100%;
       justify-content: center;
+      margin-bottom: 40px;
   }
-  .ht{
+  .htContractors{
       padding-left: 0px;
       width: 100%;
       margin-bottom: 60px;
   }
   /*right*/
-  .headerServices{
+  .headerServicesContractors{
       width: 100%;
   }
-  .hs{
+  .hsContractors{
       background-color: #fff;
       width: 100%;
       margin: 0 auto;
-      border-radius: 15px;
+      border-radius: 35px;
       padding: 20px;
+      padding: 120px;
   }
 }
 
