@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/Footer.css'
 import logo from '../assets/images/logo-footer.webp';
 
-function Footer() {
+const Footer = () => {
   return (
     <section className='footer'>
         <div className='footerLogo'>

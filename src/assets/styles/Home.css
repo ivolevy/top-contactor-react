@@ -17,6 +17,7 @@
 
 /*HEADER*/
 .header{
+  padding-top: 100px;
   width: 100%;
   background-image: url(../images/header-backgrounda.png);
   background-size: cover;

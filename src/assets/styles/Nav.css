@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+  .navbar-collapse {
+    width: 50%; /* Define el ancho deseado */
+    padding: 20px; /* Añade espacio adicional si es necesario */
+    background-color: #f8f9fa; /* Cambia el color de fondo si es necesario */
+    border-radius: 5px; /* Opcional: añade bordes redondeados */
+  }
+  .navbar-nav {
+    flex-direction: column; /* Muestra los elementos en columna */
+  }
+  .nav-item {
+    margin-bottom: 10px; /* Espacio entre elementos */
+  }
+}
+  
+.z-index-1 {
+    z-index: 1000; /* Este valor debe ser mayor que el del header */
+}
+  
