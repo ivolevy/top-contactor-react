@@ -22,6 +22,7 @@
   background-size: cover;
   background-position:right;
   padding-bottom: 80px;
+  padding-top: 170px;
 }
 
 .headerDivsContractors{
@@ -46,6 +47,7 @@
   font-size: 3em;
   color: #fff;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .htpContractors{
@@ -121,7 +123,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
 }
 
@@ -198,7 +200,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
   margin: 0px auto;
 }
 
@@ -270,7 +272,7 @@
 
 .squareCtaContractors{
   background-color: #fff;
-  width: 45%;
+  width: 40%;
   height: auto;
   padding: 60px;
   border-radius: 20px;
@@ -285,18 +287,20 @@
 }
 
 .ctaDescContractors{
-  font-weight: 330;
+  font-weight: lighter;
   font-size: 1.1em;
-  color: var(--color_similblack);
+  color: var(--color_cls);
   margin-bottom: 20px;
+}
+
+.ctaSubDescContractors{
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  font-size: bold;
 }
 
 .strongCtaContractors{
   color: var(--color_similblack);
-}
-
-.ctaSubDesc{
-  margin-bottom: 20px;
 }
 
 .buttonCtaContractors{
