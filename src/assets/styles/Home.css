@@ -45,6 +45,7 @@
 .title{
   font-size: 2.4em;
   color: var(--color_cls);
+  margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
   line-height: normal;

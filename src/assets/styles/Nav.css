@@ -50,3 +50,12 @@
   background-color: var(--color_org);
   border: none;
 }
+
+.buttonNav:active,
+.buttonNav:focus {
+  text-transform: none !important;;
+  text-decoration: none !important;;
+  background-color: var(--color_org) !important;;
+  border: none !important;;
+  outline: none !important;;
+}
