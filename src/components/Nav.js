@@ -1,14 +1,32 @@
-import React from 'react';
-import { Navbar, Container, Button } from 'react-bootstrap'; // Agrega estas importaciones
+import React, { useState, useEffect } from 'react';
+import { Navbar, Container, Button } from 'react-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/images/logo&text.png';
 import '../assets/styles/Nav.css';
 
 const Nav = () => {
   const location = useLocation();
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  },
+);
 
   return (
-    <Navbar bg="rgba(255, 255, 255, 0.5)" expand="lg" className="position-absolute w-100 z-index-1">
+    <Navbar className={`${isSticky ? 'stickyNavbar' : ''}`} bg="rgba(255, 255, 255, 0.5)" expand="lg" className="position-absolute w-100 z-index-1">
       <Container>
         <Navbar.Brand href="#">
           <NavLink to="/">

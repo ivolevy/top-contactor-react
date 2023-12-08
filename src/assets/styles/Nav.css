@@ -37,11 +37,12 @@
 }
 
 .buttonNav{
-  background-color: var(--color_org);
-  border: 1px solid var(--color_org);
-  border-radius: 25px;
-  padding: 10px 12px 10px 12px; /* Arriba, Derecha, Abajo, Izquierda */
-  font-weight: 600;
+  background-color: var(--color_org) !important;
+  border: none !important;
+  border-radius: 25px !important;
+  padding: 10px 12px 10px 12px !important; /* Arriba, Derecha, Abajo, Izquierda */
+  font-weight: 600 !important;
+  font-size: 1.1em !important;
 }
 
 .buttonNav:hover{
@@ -53,7 +54,7 @@
 
 .transparentBg {
   background-color: transparent !important;
-  color: var(--color_org);
+  color: var(--color_org) !important;
   border: none;
 }
 
@@ -64,4 +65,14 @@
   border-radius: 25px;
   padding: 10px 12px 10px 12px;
   font-weight: 600;
+}
+
+.stickyNavbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
