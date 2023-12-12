@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
+import '../../assets/styles/Styles.css';
 import certified from '../../assets/images/certifiers.webp';
 
 const Header = () => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Contractors.css';
+import '../../assets/styles/Styles.css';
 import { MdOutlineVerified } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
 import { FaRegCalendarCheck } from "react-icons/fa6";

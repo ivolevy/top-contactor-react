@@ -29,14 +29,32 @@
     font-size: 1.2em;
 }
 
-.footerLink{
-    text-decoration: underline;
-    text-transform: none;
+.footerLink {
+    position: relative;
+    text-decoration: none;
     color: #fff;
 }
 
-.footerLink2{
-   text-decoration: none;
+.privacy{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+}
+  
+.footerLink::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: -1px; 
+    left: 0;
+    background-color: #fff; 
+    transition: width 0.3s ease-in-out; 
+}
+  
+.footerLink:hover::after {
+    width: 100%; 
 }
 
 .privacy{
@@ -91,3 +109,6 @@
         font-size: 0.9em;
     }
 }
+
+
+  

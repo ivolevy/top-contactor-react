@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
+import '../../assets/styles/Styles.css';
 import { RiToolsLine } from "react-icons/ri";
 import { BsHouseGear } from "react-icons/bs";
 import { MdOutlineRoofing } from "react-icons/md";

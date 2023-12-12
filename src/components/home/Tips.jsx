@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
+import '../../assets/styles/Styles.css';
 
 const Tips = () => {
   return (

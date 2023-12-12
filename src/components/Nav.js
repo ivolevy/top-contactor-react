@@ -3,6 +3,7 @@ import { Navbar, Container, Button } from 'react-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/images/logo&text.png';
 import '../assets/styles/Nav.css';
+import '../assets/styles/Styles.css';
 
 const Nav = () => {
   const location = useLocation();

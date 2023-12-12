@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
+import '../../assets/styles/Styles.css';
 import testimonialJ from '../../assets/images/j.webp';
 import testimonialV from '../../assets/images/v.webp';
 import testimonialB from '../../assets/images/b.webp';

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Contractors.css';
+import '../../assets/styles/Styles.css';
 
 const Cta = () => {
   return (

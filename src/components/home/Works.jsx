@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/styles/Home.css';
+import '../../assets/styles/Styles.css';
 import { LuListVideo } from "react-icons/lu";
 import { LiaHandshake } from "react-icons/lia";
 import { IoIosCalculator } from "react-icons/io";
