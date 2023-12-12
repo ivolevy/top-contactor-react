@@ -16,17 +16,16 @@ const Nav = () => {
         setSticky(false);
       }
     };
-
+  
     window.addEventListener('scroll', handleScroll);
-
+  
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  },
-);
+  }, []); 
 
   return (
-    <Navbar className={`${isSticky ? 'stickyNavbar' : ''}`} bg="rgba(255, 255, 255, 0.5)" expand="lg" className="position-absolute w-100 z-index-1">
+    <Navbar className={`${isSticky ? 'stickyNavbar' : ''}`} bg="rgba(255, 255, 255, 0.5) position-absolute w-100 z-index-1" expand="lg">
       <Container>
         <Navbar.Brand href="#">
           <NavLink to="/">
