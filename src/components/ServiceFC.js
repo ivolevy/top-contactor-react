@@ -35,17 +35,17 @@ const ServiceForm = () => {
         );
       case 2:
         return (
-          <div className='service'>
-            <p className='servicesTitle'>Do you need to replace or repair an existing roof?</p>
-            <form className='form form2'>
+          <div className='service2'>
+            <p className='servicesTitle2'>Do you need to replace or repair an existing roof?</p>
+            <form className='form2'>
               <input type="checkbox" className='checkbox' value="" />
-              <label for="">Este es mi segundo checkbox</label>
+              <label for="">Repair</label>
               <br></br>
               <input type="checkbox" className='checkbox' value="" />
-              <label for="">Este es mi segundo checkbox</label>
+              <label for="">Replace</label>
               <br></br>
               <input type="checkbox" className='checkbox' value="" />
-              <label for="">Este es mi segundo checkbox</label>
+              <label for="">I´m not sure</label>
             </form>
             <button className='divButton divButton2' onClick={nextStep}>
               <div className='leftButton'></div>

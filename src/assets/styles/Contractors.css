@@ -65,6 +65,8 @@
   margin: 0 auto;
   border-radius: 35px;
   padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .formDiv{
@@ -84,9 +86,14 @@ form{
   background-color: #F0F3FAFF !important;
 }
 
+.input:focus {
+  outline: none;
+}
+
+
 #textarea{
-  height: 60px;
-  border-radius: 20px;
+  height: 80px;
+  border-radius: 30px;
   padding-top: 5px;
 }
 
@@ -95,18 +102,22 @@ form{
   padding-left: 10px;
 }
 
+#textarea::placeholder{
+  padding-top: 8px;
+}
+
 .inputBottom{
   margin-top: 20px;
 }
 
 .buttonDiv{
   display: flex;
-  width: 100%;
+  width: 90%;
   flex-direction: row-reverse;
 }
 
 .buttonHs{
-  margin-top: 50px;
+  margin-top: 30px;
   color: #fff;
   font-weight: 600;
   border-radius: 15px;
@@ -157,7 +168,6 @@ form{
       width: 100%;
       margin: 0 auto;
       border-radius: 35px;
-      padding: 120px;
   }
 }
 
