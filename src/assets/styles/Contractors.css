@@ -4,6 +4,8 @@
   --color_eee: rgba(234,239,243,.66);
   --color_gold: #fbbc04;
   --color_similblack: rgba(61, 61, 61, 1);
+  --color_lightblue: rgba(245,247,255,1);
+  --color_oceanicblue: #26636DFF;
 }
 
 /*HEADER*/
@@ -63,7 +65,55 @@
   margin: 0 auto;
   border-radius: 35px;
   padding: 20px;
-  padding: 120px;
+}
+
+.formDiv{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+form{
+}
+
+.input{
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: #F0F3FAFF !important;
+}
+
+::placeholder{
+  color: var(--color_oceanicblue);
+  padding-left: 10px;
+}
+
+.inputBottom{
+  margin-top: 20px;
+}
+
+.buttonDiv{
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.buttonHs{
+  margin-top: 50px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 15px;
+  background-color: var(--color_org);
+  border: 0px;
+  padding: 3px 8px;
+  text-decoration: none;
+  align-items: flex-end;
+}
+
+.triangle{
+  transform: rotate(90deg);
+  color: #fff;
 }
 
 .hsTitleContractors{
