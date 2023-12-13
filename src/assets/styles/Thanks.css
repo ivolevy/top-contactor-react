@@ -1,0 +1,39 @@
+:root{
+    --color_org: rgb(241, 91, 4);
+    --color_cls: rgba(47, 72, 88, 1); 
+    --color_eee: rgba(234,239,243,.66);
+    --color_gold: #fbbc04;
+    --color_similblack: rgba(61, 61, 61, 1);
+  }
+
+.thanks{
+    padding: 120px;
+    padding-top: 180px;
+    background-color: rgba(245,247,255,1) !important;
+}
+
+.thanksTitle{
+    color: var(--color_org);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.thanksText{
+    font-size: 1.8em;
+    color: var(--color_cls);
+}
+
+.thanksTextBold{
+    font-weight: bold;
+}
+
+@media(max-width: 1024px){
+    .thanks{
+        padding: 40px;
+        padding-top: 150px;
+    }
+    .thanksText{
+        font-size: 1.4em;
+        margin-top: 10px;
+    }
+}

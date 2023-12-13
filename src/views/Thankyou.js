@@ -2,16 +2,16 @@ import React from 'react';
 import '../assets/styles/Nav.css';
 import Footer from '../components/Footer';
 import Nav from '../components/Nav';
-import BlogComp from '../components/BlogComp'
+import Thanks from '../components/Thanks'
 
-const Blog = () => {
+const Privacy = () => {
   return (
     <div>
       <Nav />
-      <BlogComp />
+      <Thanks />
       <Footer />
     </div>
   );
 }
 
-export default Blog;
+export default Privacy;

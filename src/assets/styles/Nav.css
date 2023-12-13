@@ -8,21 +8,21 @@
 
 @media (max-width: 767px) {
   .navbar-collapse {
-    width: 50%; /* Define el ancho deseado */
-    padding: 20px; /* Añade espacio adicional si es necesario */
-    background-color: #f8f9fa; /* Cambia el color de fondo si es necesario */
-    border-radius: 5px; /* Opcional: añade bordes redondeados */
+    width: 50%; 
+    padding: 20px; 
+    background-color: #f8f9fa; 
+    /*border-radius: 5px;*/
   }
   .navbar-nav {
-    flex-direction: column; /* Muestra los elementos en columna */
+    flex-direction: column;
   }
   .nav-item {
-    margin-bottom: 10px; /* Espacio entre elementos */
+    margin-bottom: 10px; 
   }
 }
   
 .z-index-1 {
-    z-index: 1000; /* Este valor debe ser mayor que el del header */
+    z-index: 1000; 
 }
 
 .logoNav{
@@ -33,7 +33,7 @@
   background-color: var(--color_org) !important;
   border: none !important;
   border-radius: 25px !important;
-  padding: 10px 12px 10px 12px !important; /* Arriba, Derecha, Abajo, Izquierda */
+  padding: 10px 12px 10px 12px !important; 
   font-weight: 600 !important;
   font-size: 1.1em !important;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -52,7 +52,6 @@
   border: none;
 }
 
-/* Agrega estilos para la clase 'focused' */
 .buttonNav.focused {
   background-color: var(--color_org) !important;
   border: 1px solid var(--color_org) !important;

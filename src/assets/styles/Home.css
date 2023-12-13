@@ -482,6 +482,10 @@
       box-sizing: border-box;
       border-radius: 15px;
   }
+  .testimonialsImg{
+    width: 15%;
+    margin-bottom: 20px;
+  }
 }
 
 /*TIPS*/

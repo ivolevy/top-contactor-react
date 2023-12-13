@@ -9,6 +9,7 @@
 .privacyPolicy{
     padding: 120px;
     padding-top: 180px;
+    background-color: rgba(245,247,255,1) !important;
 }
 
 .privacyTitle{
