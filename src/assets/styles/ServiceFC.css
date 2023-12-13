@@ -28,7 +28,7 @@
     margin-top: 20px;
 }
 
-.input{
+.inputService{
     width: 85%;
     height: 40px;
     background-color: transparent !important;
@@ -43,6 +43,10 @@
     background-color: red;
     display: flex;
     flex-direction: row;
+}
+
+.divButton2{
+    border: none;
 }
 
 .leftButton{
@@ -60,6 +64,11 @@
     border-left: 1px solid rgba(255, 255, 255, .1);
 }
 
+.rightButton2{
+    background-color: var(--color_org);
+    border-left: none;
+}
+
 .buttonText{
     color: #fff;
     font-weight: 600;
@@ -68,4 +77,9 @@
     font-size: 1.2em;
     background-color: transparent;
     border: none;
+}
+
+.triangle{
+    transform: rotate(90deg);
+    font-size: 0.9em;
 }
