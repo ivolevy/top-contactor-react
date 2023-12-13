@@ -20,12 +20,12 @@
     margin: 0 auto;
     width: 70%;
     height: auto;
-    text-align: center;
 }
 
 .servicesTitle{
     font-size: 1.6em;
     margin-top: 20px;
+    padding-left: 40px;
 }
 
 .inputService{
@@ -83,3 +83,28 @@
     transform: rotate(90deg);
     font-size: 0.9em;
 }
+
+.form2{
+    width: 70%;
+    padding-left: 40px;
+}
+
+label{
+    border-radius: 15px;
+}
+
+.checkbox {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 10px; 
+  }
+  
+  .checkbox:checked {
+    background-color: var(--color_org);
+    border: 0px;
+  }

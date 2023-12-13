@@ -37,8 +37,15 @@ const ServiceForm = () => {
         return (
           <div className='service'>
             <p className='servicesTitle'>Do you need to replace or repair an existing roof?</p>
-            <form className='form'>
-              <input className='inputService' type="text" name="name" placeholder='Select/Enter your zip code'/>
+            <form className='form form2'>
+              <input type="checkbox" className='checkbox' value="" />
+              <label for="">Este es mi segundo checkbox</label>
+              <br></br>
+              <input type="checkbox" className='checkbox' value="" />
+              <label for="">Este es mi segundo checkbox</label>
+              <br></br>
+              <input type="checkbox" className='checkbox' value="" />
+              <label for="">Este es mi segundo checkbox</label>
             </form>
             <button className='divButton divButton2' onClick={nextStep}>
               <div className='leftButton'></div>
