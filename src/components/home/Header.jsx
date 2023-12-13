@@ -5,6 +5,7 @@ import { RiToolsLine } from "react-icons/ri";
 import { BsHouseGear } from "react-icons/bs";
 import { MdOutlineRoofing } from "react-icons/md";
 import { BiStore } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 
 const Header = ()=> {
   return (
@@ -25,32 +26,40 @@ const Header = ()=> {
             <p className="hsTitle">Select a service below to get started</p>
             <div className="squares">
               <div className="square">
-                <div className="sqe">
-                  <RiToolsLine className="iconHeader"/>
-                  <br />
-                  <span className="sauqreText">Replace roof</span>
-                </div>
+                <Link to="/Contact-form" className='linkHeader'>
+                  <div className="sqe">
+                    <RiToolsLine className="iconHeader"/>
+                    <br />
+                    <span className="sauqreText">Replace roof</span>
+                  </div>
+                </Link>
               </div>
               <div className="square">
-                <div className="sqe">
-                  <BsHouseGear className="iconHeader"/>
-                  <br />
-                  <span className="sauqreText">Repair roof</span>
-                </div>
+                <Link to="/Contact-form" className='linkHeader'>
+                  <div className="sqe">
+                    <BsHouseGear className="iconHeader"/>
+                    <br />
+                    <span className="sauqreText">Repair roof</span>
+                  </div>
+                </Link>
               </div>
               <div className="square">
-                <div className="sqe">
-                  <BiStore className="iconHeader"/>
-                  <br />
-                  <span className="sauqreText">Commercial</span>
-                </div>
+                <Link to="/Contact-form" className='linkHeader'>
+                  <div className="sqe">
+                    <BiStore className="iconHeader"/>
+                    <br />
+                    <span className="sauqreText">Commercial</span>
+                  </div>
+                </Link>
               </div>
               <div className="square">
-                <div className="sqe">
-                  <MdOutlineRoofing className="iconHeader"/>
-                  <br />
-                  <span className="sauqreText">Other</span>
-                </div>
+                <Link to="/Contact-form" className='linkHeader'>
+                  <div className="sqe">
+                    <MdOutlineRoofing className="iconHeader"/>
+                    <br />
+                    <span className="sauqreText">Other</span>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

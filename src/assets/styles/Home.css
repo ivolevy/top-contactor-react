@@ -89,9 +89,17 @@
 
 .sauqreText{
   font-size: 0.9em;
+  text-decoration: none;
+  color: var(--color_cls);
+  text-decoration: none !important;
+}
+
+.linkHeader{
+  text-decoration: none;
 }
 
 .sqe{
+  text-decoration: none;
 }
  
 .square{
@@ -104,8 +112,8 @@
   font-size: 1em;
   text-align: center;
   display: flex;
-  justify-content: center; /* Centrado horizontal */
-  align-items: center; /* Centrado vertical */
+  justify-content: center; 
+  align-items: center; 
 }
 
 .iconHeader{
@@ -163,8 +171,8 @@
       font-size: 1em;
       text-align: center;
       display: flex;
-      justify-content: center; /* Centrado horizontal */
-      align-items: center; /* Centrado vertical */
+      justify-content: center; 
+      align-items: center; 
   }
 }
 

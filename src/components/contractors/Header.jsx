@@ -23,7 +23,7 @@ const Header = () => {
             <div className='formDiv'>
               <form className='form'>
                   <input className='input' type="text" name="name" placeholder='Zip code'/>
-                  <input className='input inputBottom' type="text" name="name" placeholder='Tell us what services you offer!'/>
+                  <textarea className='input inputBottom' id='textarea' type="text" name="name" placeholder='Tell us what services you offer!'/>
               </form>
               <div className='buttonDiv'>
                 <Link to="/Thank-you" className='buttonLink'>
