@@ -26,7 +26,7 @@ const Nav = () => {
   }, []); 
 
   return (
-    <Navbar className={`${isSticky ? 'stickyNavbar' : ''}`} bg="rgba(255, 255, 255, 0.5) position-absolute w-100 z-index-1" expand="lg">
+    <Navbar className={`${isSticky ? 'stickyNavbar' : ''}`} bg="rgba(255, 255, 255, 0.5) position-fixed w-100 z-index1" expand="lg">
       <Container>
         <Navbar.Brand href="#">
           <NavLink to="/">

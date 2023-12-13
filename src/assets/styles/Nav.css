@@ -62,9 +62,8 @@
 }
 
 .stickyNavbar {
-  position: fixed;
+  position: sticky !important;
   top: 0;
-  left: 0;
   width: 100%;
   background-color: white;
   z-index: 1000;
