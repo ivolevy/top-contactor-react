@@ -26,7 +26,7 @@ const Header = ()=> {
             <p className="hsTitle">Select a service below to get started</p>
             <div className="squares">
               <div className="square">
-                <Link to="/Contact-form" className='linkHeader'>
+                <Link to="/roofing" className='linkHeader'>
                   <div className="sqe">
                     <RiToolsLine className="iconHeader"/>
                     <br />
@@ -35,7 +35,7 @@ const Header = ()=> {
                 </Link>
               </div>
               <div className="square">
-                <Link to="/Contact-form" className='linkHeader'>
+                <Link to="/roofing" className='linkHeader'>
                   <div className="sqe">
                     <BsHouseGear className="iconHeader"/>
                     <br />
@@ -44,7 +44,7 @@ const Header = ()=> {
                 </Link>
               </div>
               <div className="square">
-                <Link to="/Contact-form" className='linkHeader'>
+                <Link to="/roofing" className='linkHeader'>
                   <div className="sqe">
                     <BiStore className="iconHeader"/>
                     <br />
@@ -53,7 +53,7 @@ const Header = ()=> {
                 </Link>
               </div>
               <div className="square">
-                <Link to="/Contact-form" className='linkHeader'>
+                <Link to="/roofing" className='linkHeader'>
                   <div className="sqe">
                     <MdOutlineRoofing className="iconHeader"/>
                     <br />

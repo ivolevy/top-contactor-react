@@ -33,13 +33,13 @@ const Nav = () => {
             <img src={logo} alt="" width="140" height="80" className="d-inline-block align-top img logoNav" />
           </NavLink>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggler' />
         <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <NavLink to="/" activeClassName="active">
             <Button className={`me-4 buttonNav ${location.pathname !== '/' && 'transparentBg'}`}>Find your perfect contractor</Button>
           </NavLink>
           <NavLink to="/Contractors" activeClassName="active">
-            <Button className={`me-2 buttonNav ${location.pathname !== '/Contractors' && 'transparentBg'}`}>Apply to join as a TopContractor</Button>
+            <Button className={`me-2 buttonNav buttonNav2 ${location.pathname !== '/Contractors' && 'transparentBg'}`}>Apply to join as a TopContractor</Button>
           </NavLink>
         </Navbar.Collapse>
       </Container>
