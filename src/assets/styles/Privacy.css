@@ -16,6 +16,7 @@
 
 .privacyTitle{
     color: var(--color_org);
+    font-weight: bold;
 }
 
 .privacyBold{
@@ -34,4 +35,16 @@
 
 .privacyLink{
     color: var(--color_gray);
+}
+
+.graphic{
+    width: 100%;
+}
+
+@media(max-width: 1024px){
+    .privacyPolicy{
+        padding: 20px;
+        padding-top: 180px;
+        background-color: var(--color_lightblue) !important;
+    }
 }
