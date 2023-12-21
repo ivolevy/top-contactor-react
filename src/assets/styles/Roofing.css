@@ -127,3 +127,83 @@ label{
     background-color: var(--color_org);
     border: 0px;
 }
+
+@media(max-width: 1024px){
+    .serviceForm{
+        padding: 20px;
+        padding-top: 260px;
+        padding-bottom: 120px;
+    }
+    .service{
+        width: 90%;
+    }
+    .service2{
+        margin: 0 auto;
+        width: 90%;
+    }
+    .servicesTitle{
+        font-size: 1.5em;
+        margin-top: 20px;
+    }
+    .servicesTitle2{
+        font-size: 1.5em;
+        margin-top: 20px;
+        padding-left: 40px;
+    }
+    .inputService{
+        width: 80%;
+        height: 40px;
+    }
+    .divButton{
+        margin-top: 40px;
+        width: 100%;
+        height: 50px;
+        background-color: red;
+        display: flex;
+        flex-direction: row;
+    }
+    .buttonText{
+        color: #fff;
+        font-weight: 600;
+        margin-top: 12px;
+        margin-right: 40px;
+        font-size: 1.2em;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .triangle{
+        transform: rotate(90deg);
+        font-size: 0.9em;
+    }
+    
+    .form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .form2{
+        width: 70%;
+        padding-left: 40px;
+    }
+    
+    label{
+        border-radius: 15px;
+    }
+    
+    .checkbox {
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid #000;
+        cursor: pointer;
+        vertical-align: middle;
+        margin-right: 10px; 
+    }
+    
+    .checkbox:checked {
+        background-color: var(--color_org);
+        border: 0px;
+    }
+}

@@ -5,6 +5,7 @@
     --color_gold: #fbbc04;
     --color_similblack: rgba(61, 61, 61, 1);
     --color_lightblue: rgba(245,247,255,1);
+    --color_gray: #939393;
   }
 
 .privacyPolicy{
@@ -17,6 +18,20 @@
     color: var(--color_org);
 }
 
+.privacyBold{
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
 .privacySub{
     color: var(--color_org);
+    font-style: italic;
+}
+
+.privacyDesc{
+    font-size: 0.9em;
+}
+
+.privacyLink{
+    color: var(--color_gray);
 }

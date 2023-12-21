@@ -5,27 +5,6 @@
   --color_gold: #fbbc04;
   --color_similblack: rgba(61, 61, 61, 1);
 }
-
-@media (max-width: 991px) {
-  .navbar-collapse {
-    width: 100%; 
-    padding: 20px; 
-    background-color: #fff;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column;
-  }
-  .navbar-nav {
-    flex-direction: column;
-  }
-  .nav-item {
-    margin-bottom: 10px; 
-  }
-  .buttonNav2{
-    margin-top: 10px;
-  }
-}
   
 .z-index-1 {
     z-index: 1000; 
@@ -40,8 +19,8 @@
   border: none !important;
   border-radius: 25px !important;
   padding: 10px 12px 10px 12px !important; 
-  font-weight: 600 !important;
-  font-size: 1.1em !important;
+  font-weight: 400;
+  font-size: 1em !important;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -73,6 +52,27 @@
   background-color: white;
   z-index: 1000;
   transition: background-color 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    width: 100%; 
+    padding: 20px; 
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .nav-item {
+    margin-bottom: 10px; 
+  }
+  .buttonNav2{
+    margin-top: 10px;
+  }
 }
 
 .toggler{
