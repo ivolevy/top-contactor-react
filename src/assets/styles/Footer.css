@@ -84,13 +84,13 @@
     .footerLogo{
         width: 100%;
         height: auto;
-        text-align: center; /* Alinea el contenido al centro del contenedor */
+        text-align: center; 
     }
 
     .footerImg{
         width: 40%;
-        display: inline-block; /* Permite usar márgenes */
-        margin: 0 auto; /* Establece los márgenes izquierdo y derecho automáticos */
+        display: inline-block; 
+        margin: 0 auto; 
     }
     
     .footerLinks{
